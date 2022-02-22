@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+// myriad-pro font-family link
+@font-face{
+    src: url(../myriad-pro/MyriadPro-Light.woff);
+    font-family: 'myriad-light';
+}
+@font-face{
+    src: url(../myriad-pro/MYRIADPRO-REGULAR.woff);
+    font-family: 'myriad-regular';
+}
+@font-face{
+    src: url(../myriad-pro/MYRIADPRO-SEMIBOLD.woff);
+    font-family: 'myriad-semibold';
+}
+@font-face{
+    src: url(../myriad-pro/MYRIADPRO-BOLD.woff);
+    font-family: 'myriad-bold';
+}
+
+

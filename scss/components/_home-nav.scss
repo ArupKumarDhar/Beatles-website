@@ -1,0 +1,32 @@
+#navbar{
+    padding: 20px 0;
+    .navbar__main{
+        display: flex;
+        
+        .navbar__logo{
+            width: 20%;
+           
+        }
+        .navbar__menu{
+            width: 80%;
+            ul{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                li{
+                    a{
+                        @include fontfamily($myriadpro,$btnfontsize,400);
+                        color:$secondarycolor;
+                        margin-left: 15px;
+                        transition: all linear 0.3s;
+                        line-height: 40px;
+                        &:hover{
+                            color:$primarycolor;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

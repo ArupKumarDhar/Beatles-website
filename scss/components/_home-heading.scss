@@ -1,0 +1,29 @@
+#header{
+    @include divsize(100%,32px,$primarycolor)
+    .header__main{
+        display: flex;
+        
+        .header__text{
+            width: 50%;
+           p{
+            @include fontfamily($opensans,$btnfontsize,400);
+            color: #e7e7e7;
+            line-height: 32px;
+           }
+        }
+        .header__icon{
+            width: 50%;
+            text-align: right;
+            a{
+                font-size: $btnfontsize;
+                color: #e7e7e7;
+                line-height: 32px;
+                margin-left: 24px;
+                transition: all linear 0.3s;
+                &:hover{
+                    color:$secondarycolor;
+                }
+            }
+        }
+    }
+}

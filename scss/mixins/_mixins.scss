@@ -1,0 +1,24 @@
+// divsize 
+
+@mixin divsize($width,$height,$background) {
+    width: $width;
+    height: $height;
+    background: $background;
+}
+
+// button
+
+@mixin button($padding,$background,$border,$borderradius) {
+    padding: $padding;
+    background: $background;
+    border: $border;
+    border-radius: $borderradius;
+}
+
+// font-family
+
+@mixin fontfamily($fontfamily,$fontsize,$fontweight){
+    font-family: $fontfamily;
+    font-size: $fontsize;
+    font-weight: $fontweight;
+}
